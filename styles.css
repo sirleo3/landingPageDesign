@@ -1,0 +1,83 @@
+*{
+    text-decoration: none;}
+    
+    body{
+    background-color: white;
+     /* MOBILE FIRST DESIGN APPROACH */
+    
+}
+nav {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.display-non{
+    display: none;
+}
+    
+@media on screen and (min-width:900px)
+
+nav ul{
+    direction: none;
+}
+nav button: none;
+nav h3{
+    font-size: 22px;
+}
+nav h3{
+    display: none;
+}
+button{
+    background-color: blue;
+
+}
+nav h2{
+    width: 200px;
+    height: 90px;
+}
+nav h2 img{
+    width: 100%;
+    height: 100%;
+}*
+h1{
+    font-size: 40px;
+}
+
+@media only screen and (min-width :600px){
+
+}
+@media only screen and (min-width :768px){
+
+}
+    nav{
+        padding: 16px 100px;
+    }
+   nav ul{
+    display: flex;
+    list-style: none;
+     text-decoration: none;
+
+   }
+   nav ul li a{
+    text-decoration: none;
+    word-spacing: 10px;
+    margin-left: 30px;
+    
+   }
+   nav ul li a:hover{
+    background-color: black;
+   }
+    nav button{
+        display: flex;
+    }
+    div.absolute {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 500px;
+        height: 100px;
+        border: none;
+      }
+      .container{
+        text-decoration: none;      }
